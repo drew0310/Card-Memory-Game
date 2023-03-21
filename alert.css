@@ -1,0 +1,22 @@
+#alert-box {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Tahoma;
+}
+
+#alert-box.hidden {
+    display: none;
+}
+
+#alert-box.failure {
+    color: white;
+    background-color: red;
+    display: visible;
+}
+
+#alert-box.success {
+    color: white;
+    background-color: green;
+    display: visible;
+}
